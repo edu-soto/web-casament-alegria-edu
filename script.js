@@ -2,7 +2,7 @@
 const translations = {
   ca: {
     pageTitle: "El nostre Casament | 30 de Gener de 2027",
-    "nav.monogram": "N & A",
+    "nav.monogram": "A & E",
     "nav.schedule": "Programa",
     "nav.locations": "Ubicacions",
     "nav.dresscode": "Vestimenta",
@@ -55,6 +55,7 @@ const translations = {
     "dresscode.title": "Codi de Vestimenta: Formal / Elegant",
     "dresscode.p1": "Com que molts ens heu preguntat: serà un casament d'estil formal i elegant (vestit clàssic / vestit de còctel o llarg).",
     "dresscode.p2": "Tot i això, no hi ha cap etiqueta rígida: l'únic requisit indispensable és que vingueu molt afavorits, ben còmodes i amb moltes ganes de gaudir i celebrar!",
+    "dresscode.p3": "Ah, només una persona pot anar de blanc, ullet ullet.",
 
     "transport.tag": "Transport i Detalls",
     "transport.title": "Logística del Dia",
@@ -72,13 +73,13 @@ const translations = {
     "rsvp.form_note": "El formulari de Google demanarà: noms dels assistents, intoleràncies / menú especial, servei d'autocar i cançó per a la festa!",
     "rsvp.contact": "Tens algun dubte? Pots escriure'ns directament per WhatsApp a qualsevol dels dos.",
 
-    "footer.monogram": "N & A",
+    "footer.monogram": "A & E",
     "footer.closing": "Fet amb molt d'amor per a tots vosaltres"
   },
 
   es: {
     pageTitle: "Nuestra Boda | 30 de Enero de 2027",
-    "nav.monogram": "N & A",
+    "nav.monogram": "A & E",
     "nav.schedule": "Programa",
     "nav.locations": "Ubicaciones",
     "nav.dresscode": "Vestimenta",
@@ -130,7 +131,8 @@ const translations = {
     "dresscode.tag": "Guía de estilo",
     "dresscode.title": "Código de Vestimenta: Formal / Elegante",
     "dresscode.p1": "Como muchos nos habéis preguntado por el vestuario: será una boda de estilo formal y elegante (traje clásico / vestido de cóctel o largo).",
-    "dresscode.p2": "Sin embargo, no hay ninguna etiqueta rígida: lo único imprescindible es que vengáis muy favorecidos, cómodos y con ganas de disfrutar y celebrar.",
+    "dresscode.p2": "Sin embargo, no hay ninguna etiqueta rígida: lo único imprescindible es que vengáis muy favorecidos, cómodos y con ganas de disfrutar y celebrar.", 
+    "dresscode.p3": "Ah, solo una persona puede ir de blanco. Guiño, guiño",
 
     "transport.tag": "Transporte y Detalles",
     "transport.title": "Logística del Día",
@@ -148,7 +150,7 @@ const translations = {
     "rsvp.form_note": "El formulario de Google te solicitará: nombres de los asistentes, intolerancias / menú especial, uso de autobús y una canción para la fiesta.",
     "rsvp.contact": "¿Tienes alguna duda? Puedes escribirnos directamente por WhatsApp a cualquiera de los dos.",
 
-    "footer.monogram": "N & A",
+    "footer.monogram": "A & E",
     "footer.closing": "Hecho con mucho cariño para todos vosotros"
   }
 };
