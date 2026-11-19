@@ -59,7 +59,7 @@
         <a href="#programa" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.schedule">Programa</a>
         <a href="#ubicacions" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.locations">Ubicacions</a>
         <a href="#dresscode" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.dresscode">Vestimenta</a>
-        <a href="#transport" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.transport">Logística</a>
+        <a href="#regals" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.gifts">Regals</a>
         <a href="#rsvp" class="text-brand-charcoal hover:text-brand-sage transition" data-i18n="nav.rsvp">RSVP</a>
       </nav>
 
@@ -94,18 +94,23 @@
       <a href="#programa" onclick="toggleMobileMenu()" class="block text-brand-charcoal hover:text-brand-sage" data-i18n="nav.schedule">Programa</a>
       <a href="#ubicacions" onclick="toggleMobileMenu()" class="block text-brand-charcoal hover:text-brand-sage" data-i18n="nav.locations">Ubicacions</a>
       <a href="#dresscode" onclick="toggleMobileMenu()" class="block text-brand-charcoal hover:text-brand-sage" data-i18n="nav.dresscode">Vestimenta</a>
-      <a href="#transport" onclick="toggleMobileMenu()" class="block text-brand-charcoal hover:text-brand-sage" data-i18n="nav.transport">Logística</a>
+      <a href="#regals" onclick="toggleMobileMenu()" class="block text-brand-charcoal hover:text-brand-sage" data-i18n="nav.gifts">Regals</a>
       <a href="#rsvp" onclick="toggleMobileMenu()" class="block text-brand-sage font-semibold" data-i18n="nav.rsvp">Confirmació (RSVP)</a>
     </div>
   </header>
 
   <!-- HERO SECTION WITH PLAYA BACKGROUND (LIGHT & LUMINOUS) -->
-  <section id="hero" class="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center text-center px-4 py-16 sm:py-20 bg-cover bg-[center_top] sm:bg-[center_20%] overflow-hidden" style="background-image: url('assets/playa.jpeg');">
+  <section id="hero" class="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center text-center px-4 py-16 sm:py-20 bg-cover overflow-hidden" style="background-image: url('assets/playa.jpeg'); background-position: 25% 30%;">
     
     <!-- Light & subtle overlay to keep sunset bright while keeping text legible -->
     <div class="absolute inset-0 bg-gradient-to-b from-black/25 via-black/10 to-black/30"></div>
 
     <div class="relative z-10 max-w-2xl mx-auto space-y-4 sm:space-y-5">
+      
+      <!-- Couple Names Heading -->
+      <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-wide text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
+        <span class="block" data-i18n="hero.names">Alegria &amp; Edu</span>
+      </h1>
       
       <!-- Top Decorative Tagline -->
       <div class="inline-block">
@@ -113,15 +118,6 @@
           Ens casem! · ¡Nos casamos!
         </span>
       </div>
-
-      <!-- Couple Names Heading -->
-      <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-wide text-white leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]">
-        <span class="block" data-i18n="hero.names">Alegria &amp; Edu</span>
-      </h1>
-
-      <p class="font-serif italic text-lg sm:text-2xl text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)] max-w-lg mx-auto" data-i18n="hero.subtitle">
-        Tenim moltes ganes de compartir aquest dia amb tu
-      </p>
 
       <!-- Date & Key Locations Summary Badge -->
       <div class="pt-1 flex flex-col sm:flex-row items-center justify-center gap-2.5 text-xs sm:text-sm text-white">
@@ -140,10 +136,6 @@
         <a href="#rsvp" class="px-7 py-2.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase bg-brand-sage text-white hover:bg-brand-sage-dark transition shadow-lg hover:shadow-xl">
           <span data-i18n="hero.rsvp_btn">Confirmar Assistència</span>
         </a>
-        <button onclick="downloadCalendarEvent()" class="px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium tracking-wide bg-black/25 backdrop-blur-md border border-white/30 text-white hover:bg-black/35 transition flex items-center gap-2 shadow-sm">
-          <svg class="w-4 h-4 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
-          <span data-i18n="hero.calendar_btn">Afegir a l'agenda</span>
-        </button>
       </div>
 
       <!-- DISCRETE COMPACT COUNTDOWN (Leaves faces visible!) -->
@@ -233,7 +225,7 @@
               Desplaçament cap a la finca
             </h3>
             <p class="text-sm text-brand-muted leading-relaxed" data-i18n="schedule.item2.desc">
-              Temps per acomiadar els nuvis a la sortida de l'església i desplaçar-se cap a La Garriga (uns 40 minuts de trajecte per la C-17).
+              Temps per acomiadar els nuvis a la sortida de l'església i desplaçar-se cap a La Garriga (uns 40 minuts de trajecte per la C-17). Hi haurà servei d'autocar d'anada i tornada entre Barcelona i Ca n'Illa (podràs indicar si en voldràs fer ús al formulari de confirmació).
             </p>
           </div>
         </div>
@@ -282,21 +274,25 @@
   </section>
 
   <!-- LOCATIONS / UBICACIONS CARDS -->
-  <section id="ubicacions" class="py-20 px-4">
-    <div class="max-w-5xl mx-auto space-y-12">
+  <section id="ubicacions" class="py-12 sm:py-16 px-4">
+    <div class="max-w-5xl mx-auto space-y-8">
       
       <div class="text-center space-y-2">
         <p class="text-xs uppercase tracking-[0.2em] text-brand-sage font-semibold" data-i18n="locations.tag">Com arribar-hi</p>
         <h2 class="font-serif text-4xl sm:text-5xl text-brand-charcoal font-light" data-i18n="locations.title">Les Ubicacions</h2>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         
         <!-- CARD 1: CEREMONY -->
-        <div class="bg-white rounded-3xl p-8 border border-brand-sand shadow-sm flex flex-col justify-between space-y-6">
+        <div class="bg-white rounded-3xl p-5 sm:p-6 border border-brand-sand shadow-sm flex flex-col justify-between space-y-5 group">
           <div class="space-y-4">
-            <div class="w-12 h-12 rounded-2xl bg-brand-sage-light text-brand-sage-dark flex items-center justify-center font-serif text-xl font-bold">
-              1
+            <!-- Watercolor Illustration (Enlarged & Borderless) -->
+            <div class="w-full h-56 sm:h-64 rounded-2xl overflow-hidden bg-white border border-brand-sand/60 relative">
+              <img src="assets/pompeia.jpeg" 
+                   alt="Església de Pompeia - Il·lustració" 
+                   loading="lazy"
+                   class="w-full h-full object-cover object-center scale-95 group-hover:scale-100 transition duration-500">
             </div>
             <div>
               <span class="text-xs font-semibold uppercase tracking-wider text-brand-sage" data-i18n="locations.card1.label">La Cerimònia (12:00 h)</span>
@@ -304,7 +300,7 @@
               <p class="text-sm text-brand-muted mt-1">Avinguda Diagonal, 450 (Gràcia / Eixample, Barcelona)</p>
             </div>
             <p class="text-sm text-brand-muted leading-relaxed" data-i18n="locations.card1.parking_tips">
-              <strong>Aparcament recomanat:</strong> Parking Saba Travessera / Parking Diagonal Pompeia. Si veniu en transport públic: Metro L3/L5 Diagonal o FGC Provença.
+              <strong>Aparcament recomanat:</strong> Parking Saba Bamsa Jardinets de Gràcia. Si veniu en transport públic: Metro L3/L5 Diagonal o FGC Provença.
             </p>
           </div>
 
@@ -314,10 +310,14 @@
         </div>
 
         <!-- CARD 2: BANQUET -->
-        <div class="bg-white rounded-3xl p-8 border border-brand-sand shadow-sm flex flex-col justify-between space-y-6">
+        <div class="bg-white rounded-3xl p-5 sm:p-6 border border-brand-sand shadow-sm flex flex-col justify-between space-y-5 group">
           <div class="space-y-4">
-            <div class="w-12 h-12 rounded-2xl bg-brand-sage-light text-brand-sage-dark flex items-center justify-center font-serif text-xl font-bold">
-              2
+            <!-- Watercolor Illustration (Enlarged & Borderless) -->
+            <div class="w-full h-56 sm:h-64 rounded-2xl overflow-hidden bg-white border border-brand-sand/60 relative">
+              <img src="assets/masia.jpeg" 
+                   alt="Masia Ca n'Illa - Il·lustració" 
+                   loading="lazy"
+                   class="w-full h-full object-cover object-[center_55%] scale-100 group-hover:scale-105 transition duration-500">
             </div>
             <div>
               <span class="text-xs font-semibold uppercase tracking-wider text-brand-sage" data-i18n="locations.card2.label">El Banquet (15:00 h)</span>
@@ -369,46 +369,57 @@
     </div>
   </section>
 
-  <!-- TRANSPORT & LOGISTICS SECTION -->
-  <section id="transport" class="py-20 px-4">
-    <div class="max-w-4xl mx-auto space-y-12">
-      <div class="text-center space-y-2">
-        <p class="text-xs uppercase tracking-[0.2em] text-brand-sage font-semibold" data-i18n="transport.tag">Transport i Detalls</p>
-        <h2 class="font-serif text-4xl sm:text-5xl text-brand-charcoal font-light" data-i18n="transport.title">Logística del Dia</h2>
+  <!-- DONATIONS / GIFTS SECTION -->
+  <section id="regals" class="py-20 bg-brand-sand/35 border-t border-brand-sand px-4">
+    <div class="max-w-3xl mx-auto text-center space-y-8">
+      
+      <!-- Icon badge -->
+      <div class="inline-flex p-3 rounded-2xl bg-white border border-brand-sand text-brand-sage shadow-sm">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V6a2 2 0 10-2 2h2zm0 13l-4-4m4 4l4-4M3 12h18"></path>
+        </svg>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="space-y-3">
+        <p class="text-xs uppercase tracking-[0.2em] text-brand-sage font-semibold" data-i18n="gifts.tag">El millor regal</p>
+        <h2 class="font-serif text-3xl sm:text-4xl text-brand-charcoal font-light" data-i18n="gifts.title">El millor regal és compartir-ho amb vosaltres</h2>
+        <p class="text-sm sm:text-base text-brand-muted max-w-xl mx-auto leading-relaxed" data-i18n="gifts.desc">
+          La vostra presència serà el nostre millor regal. Tot i així, si ens voleu fer un detall, qualsevol aportació que ens ajudi a començar la nostra vida en família serà rebuda amb molt d'afecte.
+        </p>
+      </div>
+
+      <!-- Account Card -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-brand-sand shadow-sm max-w-lg mx-auto space-y-5">
         
-        <div class="bg-white p-6 sm:p-8 rounded-3xl border border-brand-sand space-y-3">
-          <div class="flex items-center gap-3">
-            <div class="p-2.5 rounded-xl bg-brand-sage-light text-brand-sage-dark">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
-            </div>
-            <h3 class="font-serif text-xl font-medium text-brand-charcoal" data-i18n="transport.bus_title">Autocar / Desplaçament</h3>
-          </div>
-          <p class="text-sm text-brand-muted leading-relaxed" data-i18n="transport.bus_desc">
-            Estem coordinant servei d'autocar d'anada i tornada entre Barcelona i Ca n'Illa. Al formulari de confirmació podràs indicar si vols fer ús de l'autocar.
-          </p>
+        <div class="flex items-center justify-between text-xs text-brand-muted border-b border-brand-sand pb-3">
+          <span class="font-medium" data-i18n="gifts.holder_label">Titulars:</span>
+          <span class="font-semibold text-brand-charcoal" data-i18n="gifts.holder">Alegria &amp; Edu</span>
         </div>
 
-        <div class="bg-white p-6 sm:p-8 rounded-3xl border border-brand-sand space-y-3">
-          <div class="flex items-center gap-3">
-            <div class="p-2.5 rounded-xl bg-brand-sage-light text-brand-sage-dark">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-            </div>
-            <h3 class="font-serif text-xl font-medium text-brand-charcoal" data-i18n="transport.hotels_title">Allotjament</h3>
+        <div class="space-y-2">
+          <span class="text-[11px] uppercase tracking-wider text-brand-muted font-medium block text-left">IBAN</span>
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-brand-cream/70 border border-brand-sand px-4 py-3 rounded-2xl">
+            <span class="font-mono text-xs sm:text-sm font-semibold text-brand-charcoal tracking-wider select-all break-all text-center sm:text-left">
+              ES32 0182 9003 9102 0737 7004
+            </span>
+            <button onclick="copyIBAN()" class="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-brand-sage text-white text-xs font-semibold hover:bg-brand-sage-dark transition shadow-sm active:scale-95 shrink-0" title="Copiar al portapapeles">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span id="copy-text" data-i18n="gifts.copy_btn">Copiar IBAN</span>
+            </button>
           </div>
-          <p class="text-sm text-brand-muted leading-relaxed" data-i18n="transport.hotels_desc">
-            Per als convidats que vulguin fer nit a la zona de La Garriga o Granollers, us recomanem l'Hotel Termes La Garriga o l'Hotel Balneari Blancafort.
-          </p>
         </div>
+
+        <p class="text-xs text-brand-muted italic" data-i18n="gifts.concept_note">
+          Concepte suggerit: El vostre nom + un bon desig!
+        </p>
 
       </div>
+
     </div>
   </section>
 
   <!-- RSVP SECTION WITH VESTIDO AMARILLO BACKGROUND (LIGHT & CLEAR FACES) -->
-  <section id="rsvp" class="relative min-h-[85vh] sm:min-h-[90vh] flex flex-col justify-end text-center px-4 pt-72 sm:pt-96 pb-12 sm:pb-16 bg-cover bg-[center_top] sm:bg-[center_5%] overflow-hidden" style="background-image: url('assets/vestido-amarillo.jpeg');">
+  <section id="rsvp" class="relative min-h-[85vh] sm:min-h-[90vh] flex flex-col justify-end text-center px-4 pt-72 sm:pt-96 pb-12 sm:pb-16 bg-cover overflow-hidden" style="background-image: url('assets/vestido-amarillo.jpeg'); background-position: 10% 45%;">
     
     <!-- Luminous gradient: Completely transparent at top so faces & bright dress shine, softly shaded at bottom behind button -->
     <div class="absolute inset-0 bg-gradient-to-t from-stone-950/75 via-stone-900/15 to-transparent"></div>

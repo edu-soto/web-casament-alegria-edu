@@ -2,21 +2,21 @@
 const translations = {
   ca: {
     pageTitle: "El nostre Casament | 30 de Gener de 2027",
-    "nav.monogram": "A & E",
+    "nav.monogram": "A&E",
     "nav.schedule": "Programa",
     "nav.locations": "Ubicacions",
     "nav.dresscode": "Vestimenta",
-    "nav.transport": "Logística",
+    "nav.gifts": "Regals",
     "nav.rsvp": "RSVP",
     "nav.rsvp_cta": "Confirmar",
 
     "hero.tagline": "Ens casem!",
     "hero.names": "Alegria & Edu",
-    "hero.subtitle": "Tenim moltes ganes de compartir aquest dia tan especial amb tu",
+    // "hero.subtitle": "Tenim moltes ganes de compartir aquest dia tan especial amb tu",
     "hero.date": "Dissabte, 30 de Gener de 2027",
     "hero.cities": "Barcelona & La Garriga",
     "hero.rsvp_btn": "Confirmar Assistència",
-    "hero.calendar_btn": "Afegir a l'agenda",
+    // "hero.calendar_btn": "Afegir a l'agenda",
 
     "timer.days": "Dies",
     "timer.hours": "Hores",
@@ -34,7 +34,7 @@ const translations = {
     "schedule.item1.desc": "Ens donarem el \"sí, vull\" a l'emblemàtica església modernista dels Caputxins. Us demanem puntualitat, ja que la cerimònia començarà puntualment a les 12:00 h.",
 
     "schedule.item2.title": "Desplaçament cap a la finca",
-    "schedule.item2.desc": "Temps per acomiadar els nuvis a la sortida de l'església i desplaçar-se cap a La Garriga (uns 40 minuts de trajecte per la C-17).",
+    "schedule.item2.desc": "Temps per acomiadar els nuvis a la sortida de l'església i desplaçar-se cap a La Garriga (uns 40 minuts de trajecte per la C-17). Hi haurà servei d'autocar d'anada i tornada entre Barcelona i Ca n'Illa (podràs indicar si en voldràs fer ús al formulari de confirmació).",
 
     "schedule.item3.title": "Aperitiu, Banquet i Festa",
     "schedule.item3.badge": "La Garriga",
@@ -44,7 +44,7 @@ const translations = {
     "locations.tag": "Com arribar-hi",
     "locations.title": "Les Ubicacions",
     "locations.card1.label": "La Cerimònia (12:00 h)",
-    "locations.card1.parking_tips": "Aparcament recomanat: Parking Saba Travessera / Parking Diagonal Pompeia. Si veniu en transport públic: Metro L3/L5 Diagonal o FGC Provença.",
+    "locations.card1.parking_tips": "Aparcament recomanat: Parking Saba Bamsa Jardinets de Gràcia. Si veniu en transport públic: Metro L3/L5 Diagonal o FGC Provença.",
     "locations.card1.directions": "Com arribar a l'església",
 
     "locations.card2.label": "El Banquet (15:00 h)",
@@ -57,13 +57,6 @@ const translations = {
     "dresscode.p2": "Tot i això, no hi ha cap etiqueta rígida: l'únic requisit indispensable és que vingueu molt afavorits, ben còmodes i amb moltes ganes de gaudir i celebrar!",
     "dresscode.p3": "Ah, només una persona pot anar de blanc, ullet ullet.",
 
-    "transport.tag": "Transport i Detalls",
-    "transport.title": "Logística del Dia",
-    "transport.bus_title": "Autocar / Desplaçament",
-    "transport.bus_desc": "Estem coordinant servei d'autocar d'anada i tornada entre Barcelona i Ca n'Illa. Al formulari de confirmació podràs indicar si en voldràs fer ús.",
-    "transport.hotels_title": "Allotjament",
-    "transport.hotels_desc": "Per als convidats que vulguin fer nit a la zona de La Garriga o Granollers, us recomanem l'Hotel Termes La Garriga o l'Hotel Balneari Blancafort.",
-
     "rsvp.tag": "Esperem comptar amb tu",
     "rsvp.title": "Confirmació d'Assistència",
     "rsvp.subtitle": "Si us plau, confirma la teva assistència a través del següent formulari. Ens ajudarà moltíssim a gestionar el banquet, al·lèrgies i places d'autocar.",
@@ -73,23 +66,31 @@ const translations = {
     "rsvp.form_note": "El formulari de Google demanarà: noms dels assistents, intoleràncies / menú especial, servei d'autocar i cançó per a la festa!",
     "rsvp.contact": "Tens algun dubte? Pots escriure'ns directament per WhatsApp a qualsevol dels dos.",
 
-    "footer.monogram": "A & E",
+    "gifts.tag": "El millor regal",
+    "gifts.title": "El millor regal és compartir-ho amb vosaltres",
+    "gifts.desc": "La vostra presència serà el nostre millor regal. Tot i així, si ens voleu fer un detall, qualsevol aportació que ens ajudi a començar la nostra vida en família serà rebuda amb molt d'afecte.",
+    "gifts.holder_label": "Titulars:",
+    "gifts.holder": "Alegria & Edu",
+    "gifts.copy_btn": "Copiar IBAN",
+    "gifts.concept_note": "Concepte suggerit: El vostre nom + un bon desig!",
+
+    "footer.monogram": "A&E",
     "footer.closing": "Fet amb molt d'amor per a tots vosaltres"
   },
 
   es: {
     pageTitle: "Nuestra Boda | 30 de Enero de 2027",
-    "nav.monogram": "A & E",
+    "nav.monogram": "A&E",
     "nav.schedule": "Programa",
     "nav.locations": "Ubicaciones",
     "nav.dresscode": "Vestimenta",
-    "nav.transport": "Logística",
+    "nav.gifts": "Regalos",
     "nav.rsvp": "RSVP",
     "nav.rsvp_cta": "Confirmar",
 
     "hero.tagline": "¡Nos casamos!",
     "hero.names": "Alegria & Edu",
-    "hero.subtitle": "Tenemos muchísimas ganas de compartir este día tan especial contigo",
+    // "hero.subtitle": "Tenemos muchísimas ganas de compartir este día tan especial contigo",
     "hero.date": "Sábado, 30 de Enero de 2027",
     "hero.cities": "Barcelona & La Garriga",
     "hero.rsvp_btn": "Confirmar Asistencia",
@@ -111,7 +112,7 @@ const translations = {
     "schedule.item1.desc": "Nos daremos el \"sí, quiero\" en la emblemática iglesia modernista de los Capuchinos. Os rogamos puntualidad, ya que la ceremonia empezará puntualmente a las 12:00 h.",
 
     "schedule.item2.title": "Trayecto hacia la finca",
-    "schedule.item2.desc": "Tiempo para despedir a los novios a la salida de la iglesia y desplazarse hacia La Garriga (unos 40 minutos de trayecto por la C-17).",
+    "schedule.item2.desc": "Tiempo para despedir a los novios a la salida de la iglesia y desplazarse hacia La Garriga (unos 40 minutos de trayecto por la C-17). Dispondremos de servicio de autobús de ida y vuelta entre Barcelona y Ca n'Illa (podrás indicar si lo necesitarás en el formulario de confirmación).",
 
     "schedule.item3.title": "Aperitivo, Banquete y Fiesta",
     "schedule.item3.badge": "La Garriga",
@@ -121,7 +122,7 @@ const translations = {
     "locations.tag": "Cómo llegar",
     "locations.title": "Las Ubicaciones",
     "locations.card1.label": "La Ceremonia (12:00 h)",
-    "locations.card1.parking_tips": "Aparcamiento recomendado: Parking Saba Travessera / Parking Diagonal Pompeia. En transporte público: Metro L3/L5 Diagonal o FGC Provença.",
+    "locations.card1.parking_tips": "Aparcamiento recomendado: Parking Saba Bamsa Jardinets de Gràcia. En transporte público: Metro L3/L5 Diagonal o FGC Provença.",
     "locations.card1.directions": "Cómo llegar a la iglesia",
 
     "locations.card2.label": "El Banquete (15:00 h)",
@@ -134,13 +135,6 @@ const translations = {
     "dresscode.p2": "Sin embargo, no hay ninguna etiqueta rígida: lo único imprescindible es que vengáis muy favorecidos, cómodos y con ganas de disfrutar y celebrar.", 
     "dresscode.p3": "Ah, solo una persona puede ir de blanco. Guiño, guiño",
 
-    "transport.tag": "Transporte y Detalles",
-    "transport.title": "Logística del Día",
-    "transport.bus_title": "Autobús / Desplazamiento",
-    "transport.bus_desc": "Estamos coordinando un servicio de autobús de ida y vuelta entre Barcelona y Ca n'Illa. En el formulario de confirmación podrás indicar si lo necesitarás.",
-    "transport.hotels_title": "Alojamiento",
-    "transport.hotels_desc": "Para quienes queráis hacer noche cerca de La Garriga o Granollers, os recomendamos el Hotel Termes La Garriga o el Hotel Balneari Blancafort.",
-
     "rsvp.tag": "Esperamos contar contigo",
     "rsvp.title": "Confirmación de Asistencia",
     "rsvp.subtitle": "Por favor, confirma tu asistencia a través del siguiente formulario. Nos ayudará muchísimo a organizar el banquete, alergias y plazas de autobús.",
@@ -150,7 +144,15 @@ const translations = {
     "rsvp.form_note": "El formulario de Google te solicitará: nombres de los asistentes, intolerancias / menú especial, uso de autobús y una canción para la fiesta.",
     "rsvp.contact": "¿Tienes alguna duda? Puedes escribirnos directamente por WhatsApp a cualquiera de los dos.",
 
-    "footer.monogram": "A & E",
+    "gifts.tag": "El mejor regalo",
+    "gifts.title": "El mejor regalo es compartirlo con vosotros",
+    "gifts.desc": "Vuestra presencia será nuestro mejor regalo. Si aun así deseáis tener un detalle con nosotros, cualquier aportación para ayudarnos a comenzar nuestra vida en familia será recibida con mucho cariño.",
+    "gifts.holder_label": "Titulares:",
+    "gifts.holder": "Alegria & Edu",
+    "gifts.copy_btn": "Copiar IBAN",
+    "gifts.concept_note": "Concepto sugerido: Vuestro nombre + ¡un buen deseo!",
+
+    "footer.monogram": "A&E",
     "footer.closing": "Hecho con mucho cariño para todos vosotros"
   }
 };
@@ -269,6 +271,46 @@ END:VCALENDAR`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+}
+
+// Copy IBAN function with visual feedback
+function copyIBAN() {
+  const iban = "ES3201829003910207377004";
+  const btnText = document.getElementById('copy-text');
+  const isCa = currentLang === 'ca';
+  
+  const showSuccess = () => {
+    if (btnText) {
+      btnText.textContent = isCa ? "Copiat! ✓" : "¡Copiado! ✓";
+      setTimeout(() => {
+        btnText.textContent = isCa ? translations.ca["gifts.copy_btn"] : translations.es["gifts.copy_btn"];
+      }, 2500);
+    }
+  };
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(iban).then(showSuccess).catch(() => {
+      fallbackCopy(iban, showSuccess);
+    });
+  } else {
+    fallbackCopy(iban, showSuccess);
+  }
+}
+
+function fallbackCopy(text, callback) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand("copy");
+    callback();
+  } catch (err) {
+    console.error("Copy failed", err);
+  }
+  document.body.removeChild(textarea);
 }
 
 // Initializer
