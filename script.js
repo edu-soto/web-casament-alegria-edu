@@ -43,11 +43,11 @@ const translations = {
 
     "locations.tag": "Com arribar-hi",
     "locations.title": "Les Ubicacions",
-    "locations.card1.label": "La Cerimònia (12:00 h)",
+    "locations.card1.label": "La Cerimònia - 12:00 h",
     "locations.card1.parking_tips": "Aparcament recomanat: Parking Saba Bamsa Jardinets de Gràcia. Si veniu en transport públic: Metro L3/L5 Diagonal o FGC Provença.",
     "locations.card1.directions": "Com arribar a l'església",
 
-    "locations.card2.label": "El Banquet (15:00 h)",
+    "locations.card2.label": "El Banquet - 15:00 h",
     "locations.card2.parking_tips": "Aparcament i accés: La masia disposa d'aparcament privat gratuït per a tots els convidats. Accés directe i molt còmode des de l'autovia C-17 (sortida La Garriga).",
     "locations.card2.directions": "Com arribar a Ca n'Illa",
 
@@ -121,11 +121,11 @@ const translations = {
 
     "locations.tag": "Cómo llegar",
     "locations.title": "Las Ubicaciones",
-    "locations.card1.label": "La Ceremonia (12:00 h)",
+    "locations.card1.label": "La Ceremonia - 12:00 h",
     "locations.card1.parking_tips": "Aparcamiento recomendado: Parking Saba Bamsa Jardinets de Gràcia. En transporte público: Metro L3/L5 Diagonal o FGC Provença.",
     "locations.card1.directions": "Cómo llegar a la iglesia",
 
-    "locations.card2.label": "El Banquete (15:00 h)",
+    "locations.card2.label": "El Banquete - 15:00 h",
     "locations.card2.parking_tips": "Aparcamiento y acceso: La masía cuenta con parking privado gratuito para todos los invitados. Acceso directo y muy cómodo desde la autovía C-17 (salida La Garriga).",
     "locations.card2.directions": "Cómo llegar a Ca n'Illa",
 
